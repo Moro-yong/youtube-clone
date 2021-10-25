@@ -255,6 +255,28 @@ main .profile img {
     border-bottom: 1px solid rgb(56, 56, 56);
 }
 
+/* 더보기 클릭 전 */
+.subscribe-info .infoTitle {
+    font-size: 14px;
+}
+/* 더보기 클릭 후*/
+.subscribe-info .infoTitle.clamp {
+    display: -webkit-box;    
+    -webkit-box-orient: vertical;             
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+/* 더보기 클릭 전 (버튼)*/
+.subscribe-info .infoMore {
+    content: "더보기";
+}
+
+/* 더보기 클릭 후 (버튼)*/
+.subscribe-info .infoMore.clicked {
+    content: "간략히";
+}
+
 .subscribe-info .comment > div {
     max-width: 614px;
 }
