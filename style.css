@@ -34,6 +34,7 @@ header {
     color: var(--gary);
     font-size: 22px;
     padding: 8px var(--padding) 8px var(--padding);
+    z-index: 1;
 }
 
 header .header-left .fa-youtube {
